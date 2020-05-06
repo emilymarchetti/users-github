@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, ActivityIndicator } from 'react-native';
-import axios from 'axios';
 
 function DetailScreen({ navigation, route }) {
     const { user } = route.params;

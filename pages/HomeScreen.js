@@ -4,7 +4,7 @@ import { TextInput, TouchableOpacity } from 'react-native-gesture-handler';
 import axios from 'axios';
 
 function HomeScreen({ navigation }) {
-    const [user, setUser] = React.useState('emilymarchetti');
+    const [user, setUser] = React.useState('');
     const [loading, setLoading] = React.useState(false);
 
     const url = `https://api.github.com/users/${user}`;
